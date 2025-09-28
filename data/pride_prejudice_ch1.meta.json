@@ -1,0 +1,12 @@
+{
+  "prompt": "Chapter 1\nIt is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of someone or other of their daughters.\n\n\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\" Mr. Bennet replied that he had not. \"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"\n\nMr. Bennet made no answer. \"Do you not want to know who has taken it?\" cried his wife impatiently.\n\n\"You want to tell me, and I have no objection to hearing it.\"",
+  "prompt_hash": "e7dd2965c710dff7bbb8a69768c4f2f3cfb9a0fe",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/pride_prejudice_ch1.csv",
+  "generation_path": "reports/pride_prejudice_ch1.txt",
+  "timestamp": "2025-09-25T02:14:03+00:00"
+}

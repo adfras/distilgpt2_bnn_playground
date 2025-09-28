@@ -1,0 +1,37 @@
+{
+  "merged_at": "2025-09-25T12:21:17+00:00",
+  "inputs": [
+    {
+      "source_csv": "data/token_features_poem.csv",
+      "prompt_hash": "ff0babd6dce93dcc33844ab68c5de7c26b64b803",
+      "prompt": "Write a short poem about Bayesian neural networks.",
+      "seed": 42,
+      "max_new_tokens": 80,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-25T12:20:49+00:00"
+    },
+    {
+      "source_csv": "data/token_features_prompt_qa.csv",
+      "prompt_hash": "766335b1358f300ffb852a2d9d9348798d6de438",
+      "prompt": "Answer in two sentences: What is a Bayesian neural network?",
+      "seed": 42,
+      "max_new_tokens": 120,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-25T12:20:53+00:00"
+    },
+    {
+      "source_csv": "data/token_features_haiku.csv",
+      "prompt_hash": "f734675c18a2fee4b4347df4b9584f58c87ac519",
+      "prompt": "Write a haiku about calibration and uncertainty in Bayesian neural networks.",
+      "seed": 42,
+      "max_new_tokens": 60,
+      "temperature": 1.1,
+      "top_p": 0.98,
+      "timestamp": "2025-09-25T12:20:53+00:00"
+    }
+  ],
+  "output_csv": "data/token_features_merged.csv",
+  "rows": 238
+}

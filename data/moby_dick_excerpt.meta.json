@@ -1,0 +1,12 @@
+{
+  "prompt": "Call me Ishmael. Some years ago\u2014never mind how long precisely\u2014having little or no\nmoney in my purse, and nothing particular to interest me on shore, I thought I\nwould sail about a little and see the watery part of the world. It is a way I\nhave of driving off the spleen and regulating the circulation. Whenever I find\nmyself growing grim about the mouth; whenever it is a damp, drizzly November in\nmy soul; whenever I find myself involuntarily pausing before coffin warehouses,\nand bringing up the rear of every funeral I meet; and especially whenever my\nhypos get such an upper hand of me, that it requires a strong moral principle to\nprevent me from deliberately stepping into the street, and methodically knocking\npeople's hats off\u2014then, I account it high time to get to sea as soon as I can.",
+  "prompt_hash": "3889d52f93ebb77932df482122275a37f1ea9ecf",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/moby_dick_excerpt.csv",
+  "generation_path": "reports/moby_dick_excerpt.txt",
+  "timestamp": "2025-09-25T02:13:36+00:00"
+}

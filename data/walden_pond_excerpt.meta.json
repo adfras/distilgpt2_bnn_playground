@@ -1,0 +1,12 @@
+{
+  "prompt": "When I wrote the following pages, or rather the bulk of them, I lived alone, in\nthe woods, a mile from any neighbor, in a house which I had built myself, on the\nshore of Walden Pond, in Concord, Massachusetts, and earned my living by the\nlabor of my hands only. I lived there two years and two months. At present I am\na sojourner in civilized life again. I should not obtrude my affairs so much on\nthe notice of my readers if very particular inquiries had not been made by my\nneighbors who knew little of my circumstances, and some interest in them by my\nreaders generally. I will therefore ask those of my readers who feel no\nparticular interest in me to pardon me if I undertake to answer some of the\nquestions that have been asked me.",
+  "prompt_hash": "6c2a17c3a9e292276c65b43ea63be665e7d50974",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/walden_pond_excerpt.csv",
+  "generation_path": "reports/walden_pond_excerpt.txt",
+  "timestamp": "2025-09-25T02:14:09+00:00"
+}

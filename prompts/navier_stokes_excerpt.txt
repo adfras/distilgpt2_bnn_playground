@@ -1,0 +1,8 @@
+Starting from the incompressible Navier--Stokes equations we derive the
+vorticity transport form by taking the curl of the momentum balance. The
+pressure gradient drops out, leaving a material derivative of vorticity balanced
+by vortex stretching and viscous diffusion. This representation is especially
+useful for two-dimensional flow where stretching vanishes and the Laplacian term
+controls the decay of coherent vortical structures. Introducing a streamfunction
+automatically satisfies continuity, reducing the numerical unknowns to a single
+Poisson equation per timestep.

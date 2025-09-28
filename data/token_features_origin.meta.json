@@ -1,0 +1,12 @@
+{
+  "prompt": "As many more individuals of each species are born than can possibly survive; and\nas, consequently, there is a frequently recurring struggle for existence, it\nfollows that any being, if it vary however slightly in any manner profitable to\nitself, under the complex and sometimes varying conditions of life, will have a\nbetter chance of surviving, and thus be naturally selected. From the strong\nprinciple of inheritance, any selected variety will tend to propagate its new and\nmodified form.",
+  "prompt_hash": "1d3beca9db4d2dda15ca9fab996aabe31d16a6f1",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_origin.csv",
+  "generation_path": "reports/generation_origin.txt",
+  "timestamp": "2025-09-24T12:54:48+00:00"
+}

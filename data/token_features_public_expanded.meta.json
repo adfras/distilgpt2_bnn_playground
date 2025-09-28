@@ -1,0 +1,47 @@
+{
+  "merged_at": "2025-09-25T12:21:26+00:00",
+  "inputs": [
+    {
+      "source_csv": "data/token_features_frankenstein.csv",
+      "prompt_hash": "3e0a9b42074fd07851c9a8b880fae95053aafb91",
+      "prompt": "Chapter I\nI am by birth a Genevese, and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics, and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.\n\nAs the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the true friendship of a noble, generous being, and could not endure to contemplate the misery of his friend.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:07+00:00"
+    },
+    {
+      "source_csv": "data/token_features_pride.csv",
+      "prompt_hash": "e7dd2965c710dff7bbb8a69768c4f2f3cfb9a0fe",
+      "prompt": "Chapter 1\nIt is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of someone or other of their daughters.\n\n\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\" Mr. Bennet replied that he had not. \"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"\n\nMr. Bennet made no answer. \"Do you not want to know who has taken it?\" cried his wife impatiently.\n\n\"You want to tell me, and I have no objection to hearing it.\"",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:19+00:00"
+    },
+    {
+      "source_csv": "data/token_features_gettysburg.csv",
+      "prompt_hash": "7cf323dc85e201e93e69d05aa41f7b8c983c86cb",
+      "prompt": "Gettysburg Address\nFour score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we cannot dedicate--we cannot consecrate--we cannot hallow--this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us--that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion--that we here highly resolve that these dead shall not have died in vain--that this nation, under God, shall have a new birth of freedom--and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:34+00:00"
+    },
+    {
+      "source_csv": "data/token_features_aps_wave.csv",
+      "prompt_hash": "19851ecb032e8e179d971b3870a49afcc116ef0d",
+      "prompt": "Lecture Excerpt\nIn the analysis of coupled wave equations, energy methods remain the most transparent way to expose stability. We begin by defining the symmetrizer so that the spatial differential operator is self-adjoint under the induced inner product. Integrating the local conservation law over a bounded domain shows that boundary terms control the growth rate of the solution. To keep the estimate sharp, we choose test functions aligned with the characteristic fields; this eliminates the spurious cross terms that otherwise inflate the energy functional. As a result, the energy decays whenever the boundary flux is forced to zero.\n\nThe same symmetrizer lets us transfer the argument to numerical schemes. For a second-order finite volume method we lift the discrete flux into the continuous setting, add the usual skew-symmetric split of the nonlinear term, and obtain a semi-discrete inequality mirroring the PDE estimate. The residual terms are all proportional to the timestep, which means we recover uniform stability in the small-CFL limit. This observation is the cornerstone for higher-order discontinuous Galerkin discretizations as well, provided the penalization is scaled with the interface Jacobian.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:46+00:00"
+    }
+  ],
+  "output_csv": "data/token_features_public_expanded.csv",
+  "rows": 1025
+}

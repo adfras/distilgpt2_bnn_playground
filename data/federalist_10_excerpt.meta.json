@@ -1,0 +1,12 @@
+{
+  "prompt": "Among the numerous advantages promised by a well-constructed Union, none\ndeserves to be more accurately developed than its tendency to break and control\nthe violence of faction. The friend of popular governments never finds himself\nso much alarmed for their character and fate as when he contemplates their\npropensity to this dangerous vice. He will not fail, therefore, to set a due\nvalue on any plan which, without violating the principles to which he is\nattached, provides a proper cure for it. The instability, injustice, and\nconfusion introduced into the public councils have, in truth, been the mortal\ndiseases under which popular governments have everywhere perished; as they\ncontinue to be the favorite and fruitful topics from which the adversaries to\nliberty derive their most specious declamations.",
+  "prompt_hash": "75c7dfc55e3b028b9d7734f167631b8fcabd58a9",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/federalist_10_excerpt.csv",
+  "generation_path": "reports/federalist_10_excerpt.txt",
+  "timestamp": "2025-09-25T02:13:09+00:00"
+}

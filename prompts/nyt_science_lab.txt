@@ -1,0 +1,4 @@
+Science Desk Report
+Researchers at a midwestern materials lab have announced a prototype solid-state electrolyte that remains stable at temperatures up to 150 degrees Celsius. The team layered a ceramic scaffold with an amorphous polymer, achieving ionic conductivity on par with commercial liquid electrolytes. Stress tests showed no dendrite formation even at two milliamps per square centimeter, a threshold that usually triggers failure in lithium-metal cells.
+
+The lab cautions that the prototype still suffers from interfacial resistance when paired with high-voltage cathodes, shaving five percent off the round-trip efficiency. They are experimenting with thin-film coatings that could mitigate the issue without adding significant mass. If the coatings pan out, the group plans to share design files with battery makers looking to industrialise the approach within the decade.

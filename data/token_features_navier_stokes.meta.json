@@ -1,0 +1,12 @@
+{
+  "prompt": "Starting from the incompressible Navier--Stokes equations we derive the\nvorticity transport form by taking the curl of the momentum balance. The\npressure gradient drops out, leaving a material derivative of vorticity balanced\nby vortex stretching and viscous diffusion. This representation is especially\nuseful for two-dimensional flow where stretching vanishes and the Laplacian term\ncontrols the decay of coherent vortical structures. Introducing a streamfunction\nautomatically satisfies continuity, reducing the numerical unknowns to a single\nPoisson equation per timestep.",
+  "prompt_hash": "545d4101c2f124ed15246c1979f0e8f27951faa8",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_navier_stokes.csv",
+  "generation_path": "reports/navier_stokes_excerpt.txt",
+  "timestamp": "2025-09-26T23:45:53+00:00"
+}

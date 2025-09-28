@@ -1,0 +1,12 @@
+{
+  "prompt": "Answer in two sentences: What is a Bayesian neural network?",
+  "prompt_hash": "766335b1358f300ffb852a2d9d9348798d6de438",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 120,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_prompt_qa.csv",
+  "generation_path": "reports/generation_prompt_qa.txt",
+  "timestamp": "2025-09-25T12:20:53+00:00"
+}

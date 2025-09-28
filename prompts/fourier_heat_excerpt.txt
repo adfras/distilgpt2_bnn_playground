@@ -1,0 +1,8 @@
+In analysing conductive heat flow through a stratified plate we start from
+Fourier's law, expressing the heat flux as the product of conductivity and the
+temperature gradient. Assuming steady state and no internal heat generation, the
+divergence of that flux vanishes. Integrating twice along the thickness reduces
+the governing equation to a linear temperature profile whose slope is fixed by
+the boundary temperatures. When the conductivity varies by layer we enforce
+continuity of flux and temperature at each interface, which yields a compact
+series resistance model for the whole stack.

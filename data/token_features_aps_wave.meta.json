@@ -1,0 +1,12 @@
+{
+  "prompt": "Lecture Excerpt\nIn the analysis of coupled wave equations, energy methods remain the most transparent way to expose stability. We begin by defining the symmetrizer so that the spatial differential operator is self-adjoint under the induced inner product. Integrating the local conservation law over a bounded domain shows that boundary terms control the growth rate of the solution. To keep the estimate sharp, we choose test functions aligned with the characteristic fields; this eliminates the spurious cross terms that otherwise inflate the energy functional. As a result, the energy decays whenever the boundary flux is forced to zero.\n\nThe same symmetrizer lets us transfer the argument to numerical schemes. For a second-order finite volume method we lift the discrete flux into the continuous setting, add the usual skew-symmetric split of the nonlinear term, and obtain a semi-discrete inequality mirroring the PDE estimate. The residual terms are all proportional to the timestep, which means we recover uniform stability in the small-CFL limit. This observation is the cornerstone for higher-order discontinuous Galerkin discretizations as well, provided the penalization is scaled with the interface Jacobian.",
+  "prompt_hash": "19851ecb032e8e179d971b3870a49afcc116ef0d",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_aps_wave.csv",
+  "generation_path": "reports/generation_aps_wave.txt",
+  "timestamp": "2025-09-24T12:56:46+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "prompt": "Write a short poem about Bayesian neural networks.",
+  "prompt_hash": "ff0babd6dce93dcc33844ab68c5de7c26b64b803",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 80,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_poem.csv",
+  "generation_path": "reports/generation_prompt_poem.txt",
+  "timestamp": "2025-09-25T12:20:49+00:00"
+}

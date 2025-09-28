@@ -1,0 +1,12 @@
+{
+  "prompt": "The general equations of the electromagnetic field, when expressed in the form\nof differential equations, consist of four principal relations. First, the curl\nof the electric intensity is equal to the negative rate of change of the\nmagnetic induction. Secondly, the curl of the magnetic intensity is equal to the\ncurrent, including the displacement current, and to the rate of change of the\nelectric displacement. Thirdly, the divergence of the magnetic induction is\nzero. Lastly, the divergence of the electric displacement is the density of the\nfree electricity. These equations embrace the complete dynamical character of\nthe electromagnetic field and apply whether the field derives from magnets,\nconduction currents, or the oscillations of the ether itself.",
+  "prompt_hash": "91ee67c69e6512007ac50f2bdbe2211180f14a03",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/maxwell.csv",
+  "generation_path": "reports/maxwell.txt",
+  "timestamp": "2025-09-25T02:12:37+00:00"
+}

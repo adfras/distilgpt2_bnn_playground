@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*:Zone.Identifier
+.hf_cache/
+.npm-cache/
+.playwright-browsers/
+outputs/
+reports/
+repomix-clean.xml

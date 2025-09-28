@@ -1,0 +1,12 @@
+{
+  "prompt": "Write a haiku about calibration and uncertainty in Bayesian neural networks.",
+  "prompt_hash": "f734675c18a2fee4b4347df4b9584f58c87ac519",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 60,
+  "temperature": 1.1,
+  "top_p": 0.98,
+  "seed": 42,
+  "features_csv": "data/token_features_haiku.csv",
+  "generation_path": "reports/generation_haiku.txt",
+  "timestamp": "2025-09-25T12:20:53+00:00"
+}

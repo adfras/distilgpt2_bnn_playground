@@ -1,0 +1,12 @@
+{
+  "prompt": "Field Bulletin\nThe National Weather Service's Arctic desk reported on Wednesday that sea-ice extent in the Beaufort Sea fell below the decadal average for the first time this season. Analysts attribute the anomaly to a stalled low-pressure system that kept southerly winds blowing across the central pack for eight consecutive days. According to the bulletin, the wind stress not only compacted the ice along the Alaskan coast but also opened several leads that now stretch more than twenty nautical miles.\n\nForecasters warn that the thinner ice cover will amplify coastal erosion if another storm makes landfall before freeze-up. Emergency managers in Utqia\u0121vik and Prudhoe Bay have already been briefed to watch for higher wave run-up and potential impacts on the coastal radar network. The bulletin recommends daily satellite reconnaissance as well as updated drift models so that resupply vessels can plan safe routes through the affected region.",
+  "prompt_hash": "fa29265e5447e08983d30a57f01101b01cf47d96",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/noaa_arctic_report.csv",
+  "generation_path": "reports/noaa_arctic_report.txt",
+  "timestamp": "2025-09-25T02:13:42+00:00"
+}

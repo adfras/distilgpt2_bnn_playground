@@ -1,0 +1,107 @@
+{
+  "merged_at": "2025-09-24T12:57:10+00:00",
+  "inputs": [
+    {
+      "source_csv": "data/token_features_frankenstein.csv",
+      "prompt_hash": "3e0a9b42074fd07851c9a8b880fae95053aafb91",
+      "prompt": "Chapter I\nI am by birth a Genevese, and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics, and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; a variety of circumstances had prevented his marrying early, nor was it until the decline of life that he became a husband and the father of a family.\n\nAs the circumstances of his marriage illustrate his character, I cannot refrain from relating them. One of his most intimate friends was a merchant who, from a flourishing state, fell, through numerous mischances, into poverty. This man, whose name was Beaufort, was of a proud and unbending disposition and could not bear to live in poverty and oblivion in the same country where he had formerly been distinguished for his rank and magnificence. Having paid his debts, therefore, in the most honourable manner, he retreated with his daughter to the town of Lucerne, where he lived unknown and in wretchedness. My father loved Beaufort with the true friendship of a noble, generous being, and could not endure to contemplate the misery of his friend.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:07+00:00"
+    },
+    {
+      "source_csv": "data/token_features_pride.csv",
+      "prompt_hash": "e7dd2965c710dff7bbb8a69768c4f2f3cfb9a0fe",
+      "prompt": "Chapter 1\nIt is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife. However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of someone or other of their daughters.\n\n\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\" Mr. Bennet replied that he had not. \"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"\n\nMr. Bennet made no answer. \"Do you not want to know who has taken it?\" cried his wife impatiently.\n\n\"You want to tell me, and I have no objection to hearing it.\"",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:19+00:00"
+    },
+    {
+      "source_csv": "data/token_features_gettysburg.csv",
+      "prompt_hash": "7cf323dc85e201e93e69d05aa41f7b8c983c86cb",
+      "prompt": "Gettysburg Address\nFour score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we cannot dedicate--we cannot consecrate--we cannot hallow--this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us--that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion--that we here highly resolve that these dead shall not have died in vain--that this nation, under God, shall have a new birth of freedom--and that government of the people, by the people, for the people, shall not perish from the earth.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:34+00:00"
+    },
+    {
+      "source_csv": "data/token_features_aps_wave.csv",
+      "prompt_hash": "19851ecb032e8e179d971b3870a49afcc116ef0d",
+      "prompt": "Lecture Excerpt\nIn the analysis of coupled wave equations, energy methods remain the most transparent way to expose stability. We begin by defining the symmetrizer so that the spatial differential operator is self-adjoint under the induced inner product. Integrating the local conservation law over a bounded domain shows that boundary terms control the growth rate of the solution. To keep the estimate sharp, we choose test functions aligned with the characteristic fields; this eliminates the spurious cross terms that otherwise inflate the energy functional. As a result, the energy decays whenever the boundary flux is forced to zero.\n\nThe same symmetrizer lets us transfer the argument to numerical schemes. For a second-order finite volume method we lift the discrete flux into the continuous setting, add the usual skew-symmetric split of the nonlinear term, and obtain a semi-discrete inequality mirroring the PDE estimate. The residual terms are all proportional to the timestep, which means we recover uniform stability in the small-CFL limit. This observation is the cornerstone for higher-order discontinuous Galerkin discretizations as well, provided the penalization is scaled with the interface Jacobian.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:46+00:00"
+    },
+    {
+      "source_csv": "data/token_features_noaa_arctic.csv",
+      "prompt_hash": "fa29265e5447e08983d30a57f01101b01cf47d96",
+      "prompt": "Field Bulletin\nThe National Weather Service's Arctic desk reported on Wednesday that sea-ice extent in the Beaufort Sea fell below the decadal average for the first time this season. Analysts attribute the anomaly to a stalled low-pressure system that kept southerly winds blowing across the central pack for eight consecutive days. According to the bulletin, the wind stress not only compacted the ice along the Alaskan coast but also opened several leads that now stretch more than twenty nautical miles.\n\nForecasters warn that the thinner ice cover will amplify coastal erosion if another storm makes landfall before freeze-up. Emergency managers in Utqia\u0121vik and Prudhoe Bay have already been briefed to watch for higher wave run-up and potential impacts on the coastal radar network. The bulletin recommends daily satellite reconnaissance as well as updated drift models so that resupply vessels can plan safe routes through the affected region.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:56:58+00:00"
+    },
+    {
+      "source_csv": "data/token_features_moby_dick.csv",
+      "prompt_hash": "3889d52f93ebb77932df482122275a37f1ea9ecf",
+      "prompt": "Call me Ishmael. Some years ago\u2014never mind how long precisely\u2014having little or no\nmoney in my purse, and nothing particular to interest me on shore, I thought I\nwould sail about a little and see the watery part of the world. It is a way I\nhave of driving off the spleen and regulating the circulation. Whenever I find\nmyself growing grim about the mouth; whenever it is a damp, drizzly November in\nmy soul; whenever I find myself involuntarily pausing before coffin warehouses,\nand bringing up the rear of every funeral I meet; and especially whenever my\nhypos get such an upper hand of me, that it requires a strong moral principle to\nprevent me from deliberately stepping into the street, and methodically knocking\npeople's hats off\u2014then, I account it high time to get to sea as soon as I can.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:53:50+00:00"
+    },
+    {
+      "source_csv": "data/token_features_walden.csv",
+      "prompt_hash": "6c2a17c3a9e292276c65b43ea63be665e7d50974",
+      "prompt": "When I wrote the following pages, or rather the bulk of them, I lived alone, in\nthe woods, a mile from any neighbor, in a house which I had built myself, on the\nshore of Walden Pond, in Concord, Massachusetts, and earned my living by the\nlabor of my hands only. I lived there two years and two months. At present I am\na sojourner in civilized life again. I should not obtrude my affairs so much on\nthe notice of my readers if very particular inquiries had not been made by my\nneighbors who knew little of my circumstances, and some interest in them by my\nreaders generally. I will therefore ask those of my readers who feel no\nparticular interest in me to pardon me if I undertake to answer some of the\nquestions that have been asked me.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:54:02+00:00"
+    },
+    {
+      "source_csv": "data/token_features_federalist10.csv",
+      "prompt_hash": "75c7dfc55e3b028b9d7734f167631b8fcabd58a9",
+      "prompt": "Among the numerous advantages promised by a well-constructed Union, none\ndeserves to be more accurately developed than its tendency to break and control\nthe violence of faction. The friend of popular governments never finds himself\nso much alarmed for their character and fate as when he contemplates their\npropensity to this dangerous vice. He will not fail, therefore, to set a due\nvalue on any plan which, without violating the principles to which he is\nattached, provides a proper cure for it. The instability, injustice, and\nconfusion introduced into the public councils have, in truth, been the mortal\ndiseases under which popular governments have everywhere perished; as they\ncontinue to be the favorite and fruitful topics from which the adversaries to\nliberty derive their most specious declamations.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:54:17+00:00"
+    },
+    {
+      "source_csv": "data/token_features_maxwell.csv",
+      "prompt_hash": "91ee67c69e6512007ac50f2bdbe2211180f14a03",
+      "prompt": "The general equations of the electromagnetic field, when expressed in the form\nof differential equations, consist of four principal relations. First, the curl\nof the electric intensity is equal to the negative rate of change of the\nmagnetic induction. Secondly, the curl of the magnetic intensity is equal to the\ncurrent, including the displacement current, and to the rate of change of the\nelectric displacement. Thirdly, the divergence of the magnetic induction is\nzero. Lastly, the divergence of the electric displacement is the density of the\nfree electricity. These equations embrace the complete dynamical character of\nthe electromagnetic field and apply whether the field derives from magnets,\nconduction currents, or the oscillations of the ether itself.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:54:31+00:00"
+    },
+    {
+      "source_csv": "data/token_features_origin.csv",
+      "prompt_hash": "1d3beca9db4d2dda15ca9fab996aabe31d16a6f1",
+      "prompt": "As many more individuals of each species are born than can possibly survive; and\nas, consequently, there is a frequently recurring struggle for existence, it\nfollows that any being, if it vary however slightly in any manner profitable to\nitself, under the complex and sometimes varying conditions of life, will have a\nbetter chance of surviving, and thus be naturally selected. From the strong\nprinciple of inheritance, any selected variety will tend to propagate its new and\nmodified form.",
+      "seed": 42,
+      "max_new_tokens": 0,
+      "temperature": 0.9,
+      "top_p": 0.95,
+      "timestamp": "2025-09-24T12:54:48+00:00"
+    }
+  ],
+  "output_csv": "data/token_features_public_v2.csv",
+  "rows": 1982
+}

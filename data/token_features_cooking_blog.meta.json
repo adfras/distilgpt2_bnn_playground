@@ -1,0 +1,12 @@
+{
+  "prompt": "Cooking Journal\nI tried roasting cauliflower with miso caramel for the first time this weekend after spotting the idea on a late-night food forum. The base is a simple paste: white miso, brown sugar, rice vinegar, and a splash of sesame oil. Toss the florets until every crevice is lacquered, then roast them hot enough to char the tips without drying the stems. Twenty minutes in, the glaze thickens and the cauliflower turns sticky and deep amber.\n\nThe only tweak I would make next time is adding lime zest at the end to brighten the richness. I served the dish alongside jasmine rice and a spinach salad dressed with ginger. Even the picky eaters at the table went back for seconds, which is a rare feat in my kitchen on a Sunday.",
+  "prompt_hash": "4abdba69f01b2395235881e081c5142ccccf412c",
+  "model_name": "distilgpt2",
+  "max_new_tokens": 0,
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "seed": 42,
+  "features_csv": "data/token_features_cooking_blog.csv",
+  "generation_path": "reports/generation_cooking_blog.txt",
+  "timestamp": "2025-09-25T12:20:53+00:00"
+}
